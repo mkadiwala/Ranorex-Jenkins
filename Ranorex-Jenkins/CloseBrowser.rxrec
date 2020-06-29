@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="db2b98f5-0397-46be-8ad2-6c894235ebe9"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Ranorex_Jenkins">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="0fbbdd4b-51cc-4b59-9073-f36bb150fa47">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="43177adb-4353-41e5-b6a2-b2e1ded90c0a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="409c26d6-39e2-4d26-924e-9f85dfe9cc33"
+	name="Ranorex_JenkinsRepository"
+	relativepath="Ranorex_JenkinsRepository.rxrep">
+		<codegen
+		classname="Ranorex_JenkinsRepository"
+		namespace="Ranorex_Jenkins">
+		</codegen>
+		<rootfolder
+		id="ceb058ae-35f3-42b0-8cb4-d9256c816a15"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
